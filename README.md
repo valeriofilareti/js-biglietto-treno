@@ -11,3 +11,5 @@ va applicato uno sconto del 40% per gli over 65.
 ## Svolgimento
 1) Salvare in una variabile il numero dei km
 2) Salvare in una variabile l'età dell'utente
+3) Calcolare il prezzo del biglietto sulla base dei km da percorrere
+4) Calcolare lo sconto sulla base dell'età dell'utente
