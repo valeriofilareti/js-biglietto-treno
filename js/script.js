@@ -1,5 +1,5 @@
-//const age = prompt('quanti anni hai?')
-//const km = prompt('quanti km vuoi percorrere?') 
+const age = prompt('quanti anni hai?')
+const km = prompt('quanti km vuoi percorrere?') 
 
 let price = km * 0.21;
 
@@ -12,7 +12,5 @@ if(age < 18) {
 } else {
   price = price;
 }
-
-
-
-console.log(price);
+console.log(price.toFixed(2));
+document.getElementById('price').innerHTML = price.toFixed(2) + '€'
